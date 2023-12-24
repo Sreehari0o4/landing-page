@@ -1,13 +1,18 @@
 body{
     display: flex;
     flex-direction: column;
+    
 }
 
 
 .box1{
-    display: flex;
+    
     background-color: aquamarine;
-    height: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .box2{
@@ -24,4 +29,20 @@ body{
 
 .footer{
     background-color: chocolate;
+}
+
+/** header **/
+.header{
+    display: flex;
+    
+}
+.logo{
+    font-size: 24px;
+}
+
+/** box1 **/
+.hero{
+    display: flex;
+    height: 500px;
+    align-items: center;
 }
