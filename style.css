@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box1{
+    display: flex;
+    background-color: aquamarine;
+    height: 900px;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: brown;
+}
+
+.box4{
+    background-color: aqua;
+}
+
+.footer{
+    background-color: chocolate;
+}
