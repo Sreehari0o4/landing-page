@@ -3,12 +3,6 @@ body{
     flex-direction: column;
     margin: 0;    
 }
-
-
-.box2{
-    background-color: blueviolet;
-}
-
 .box3{
     background-color: brown;
 }
@@ -71,5 +65,22 @@ a{
 }
 .rhero{
     height: 300px;
+    display: flex;
+}
+
+/**box2**/
+.box2{
+    height: 100vb;
+    background-color: #c96567;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info2{
+    font-size: 50px;
+    font-family: 'Courier New';
+}
+.subb{
     display: flex;
 }
