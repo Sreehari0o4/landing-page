@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0;    
 }
 
 
@@ -47,14 +47,29 @@ a{
 .box1{
     
     background-color: #eae7dc;
-    height: 800px;
+    height: 100vb;
     display: flex;
     flex-direction: column;
     align-items: center;  
 }
 
 .hero{
-    display: flex;
-    height: 500px;
+    display: flex;  
     align-items: center;
+    margin-top: 200px;
+}
+
+.bhero{
+    font-size: 68px;
+    font-family: 'Courier New';
+    font-weight: 700;
+    color: #c96567;
+}
+.shero{
+    font-family: 'Courier New';
+    color: #5d5d5a;
+}
+.rhero{
+    height: 300px;
+    display: flex;
 }
