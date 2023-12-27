@@ -3,17 +3,6 @@ body{
     flex-direction: column;
     margin: 0;    
 }
-.box3{
-    background-color: brown;
-}
-
-.box4{
-    background-color: aqua;
-}
-
-.footer{
-    background-color: chocolate;
-}
 
 /** header **/
 .header{
@@ -152,4 +141,12 @@ a{
 
 .lastp2 a{
     color: #f0171a;
+}
+
+/**footer**/
+.footer{
+    text-align: center;
+    background-color: #c96567;
+    height: 90px;
+    font-family: 'Courier New', Courier, monospace;
 }
