@@ -70,17 +70,37 @@ a{
 
 /**box2**/
 .box2{
-    height: 100vb;
     background-color: #c96567;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 10vb;
+    min-height: 700px;
 }
 
 .info2{
     font-size: 50px;
-    font-family: 'Courier New';
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    color: #314455;
 }
-.subb{
+.subbb{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bb img{
+    height: 180px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.bs{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 170px;
+}
+.b{
+    padding-top: 45px;
 }
